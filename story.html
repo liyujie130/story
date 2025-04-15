@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lily 的一天</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #ff7eb9;
+      --secondary: #feb47b;
+      --bg: #fff4f4;
+      --text-dark: #333;
+      --text-light: #fff;
+      --shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text-dark);
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: linear-gradient(to right, var(--primary), var(--secondary));
+      padding: 1rem;
+      z-index: 999;
+      box-shadow: var(--shadow);
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      gap: 10px;
+    }
+
+    nav ul li a {
+      color: var(--text-light);
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 50px;
+      background-color: rgba(255, 255, 255, 0.2);
+      transition: background 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    section {
+      padding: 100px 20px 60px;
+      text-align: center;
+      min-height: 100vh;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    section p {
+      max-width: 700px;
+      margin: 0 auto 1.5rem;
+      line-height: 1.6;
+    }
+
+    section img {
+      width: 90%;
+      max-width: 600px;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #222;
+      color: #ccc;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        gap: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#scene1">幕1</a></li>
+      <li><a href="#scene2">幕2</a></li>
+      <li><a href="#scene3">幕3</a></li>
+      <li><a href="#scene4">幕4</a></li>
+      <li><a href="#scene5">幕5</a></li>
+      <li><a href="#scene6">幕6</a></li>
+      <li><a href="#scene7">幕7</a></li>
+      <li><a href="#scene8">幕8</a></li>
+      <li><a href="#scene9">幕9</a></li>
+      <li><a href="#scene10">幕10</a></li>
+    </ul>
+  </nav>
+
+  <!-- Scenes -->
+  <section id="scene1">
+    <h2>幕 1：The Morning Sun</h2>
+    <p>Lily 起床了，伸個大懶腰，開心地說：「新的一天開始了！」她學習自己整理床鋪。</p>
+    <img src="image1.jpg" alt="Scene 1">
+  </section>
+
+  <section id="scene2">
+    <h2>幕 2：Brushing Teeth</h2>
+    <p>Lily 走進浴室，拿起牙刷，仔細刷牙。「每天刷牙，牙齒才會健康！」她開心地笑了。</p>
+    <img src="image2.jpg" alt="Scene 2">
+  </section>
+
+  <section id="scene3">
+    <h2>幕 3：Tidying Her Room</h2>
+    <p>Lily 整理房間，把玩具放回箱子，書本放回書架。房間變整齊，她感到開心。</p>
+    <img src="image3.jpg" alt="Scene 3">
+  </section>
+
+  <section id="scene4">
+    <h2>幕 4：Healthy Breakfast</h2>
+    <p>媽媽準備了營養早餐，Lily 吃著水果、牛奶和麵包，知道健康的早餐讓她更有精神。</p>
+    <img src="image4.jpg" alt="Scene 4">
+  </section>
+
+  <section id="scene5">
+    <h2>幕 5：Helping a Friend</h2>
+    <p>在學校，Lily 看見朋友掉了鉛筆，立刻幫忙撿起來。朋友笑著說：「謝謝你！」</p>
+    <img src="image5.jpg" alt="Scene 5">
+  </section>
+
+  <section id="scene6">
+    <h2>幕 6：Homework First</h2>
+    <p>放學回家，Lily 先寫完功課，再去玩耍。她學會了先完成重要的事情，這樣玩得更安心。</p>
+    <img src="image6.jpg" alt="Scene 6">
+  </section>
+
+  <section id="scene7">
+    <h2>幕 7：Sharing is Joyful</h2>
+    <p>午餐時間，Lily 把餅乾分給朋友們一起吃，大家開心地分享，美味變得更多了！</p>
+    <img src="image7.jpg" alt="Scene 7">
+  </section>
+
+  <section id="scene8">
+    <h2>幕 8：Paying Attention</h2>
+    <p>上課時，Lily 認真聽老師講課，寫字時不馬虎，她發現學習變得更有趣了！</p>
+    <img src="image8.jpg" alt="Scene 8">
+  </section>
+
+  <section id="scene9">
+    <h2>幕 9：Homework First, Then Play</h2>
+    <p>Lily 完成作業後才開始玩耍，學會了責任先行，快樂加倍。</p>
+    <img src="image9.jpg" alt="Scene 9">
+  </section>
+
+  <section id="scene10">
+    <h2>幕 10：Good Night, Lily!</h2>
+    <p>睡覺時間到了，Lily 洗好澡、聽媽媽講故事，然後甜甜地進入夢鄉，準備迎接美好的一天！</p>
+    <img src="image10.jpg" alt="Scene 10">
+  </section>
+
+  <footer>
+    &copy; 2025 Lily’s Storybook. All rights reserved.
+  </footer>
+
+  <script>
+    // 未來可以加滑動效果、按鈕動畫等
+    console.log("Lily's Web Story Ready!");
+  </script>
+
+</body>
+</html>
